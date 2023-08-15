@@ -1,0 +1,34 @@
+.to-do {
+  display: flex;
+}
+
+input {
+  margin-left: 40px;
+  padding: 12px 8px 12px 40px;
+  background-color: #eee;
+}
+
+input::placeholder {
+  color: black;
+}
+
+button {
+  padding: 12px 8px 12px;
+}
+
+ul li {
+  cursor: pointer;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+}
+
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+li {
+  list-style: none;
+}
